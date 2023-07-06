@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
     <title>OCEAN NFT</title>
 </head>
 
@@ -13,106 +14,125 @@
     <header class="header">
         <div class="container">
             <nav class="header-menu">
-                <div class="header-menu__logo">
-                    <img src="img/header/header-logo.svg">
+                <img  class="header-menu__logo" src="img/header/header-logo.svg">
+                <div class="header-menu__nav">
+                    <a class="header-menu__market">Market</a>
+                    <a class="header-menu__features">Features</a>
+                    <a class="header-menu__community">Community</a>
                 </div>
-                <ul class="header-menu__navigate">
-                    <li class="header-menu__market">Market</li>
-                    <li class="header-menu__features">Features</li>
-                    <li class="header-menu__community">Community</li>
-                </ul>
-                <div class="header-menu__icons">
+                <div class="header-menu__busk-and-acc">
                     <a class="basket-icon"><img src="img/header/basket-icon.svg"></a>
-                    <a class="account-icon"><img src="img/header/account-icon.svg"></a>
+                    <a class="account-icon"><img src="img/header/acc-icon.svg"></a>
                 </div>
+
+                              <div class="burger-menu">
+                                  <a href="#" class="burger-menu__button">
+                                      <span class="burger-menu__lines"></span>
+                                  </a>
+                                  <nav class="burger-menu__nav">
+                                      <a href="#" class="burger-menu__link">Market</a>
+                                      <a href="#" class="burger-menu__link">Features</a>
+                                      <a href="#" class="burger-menu__link">Community</a>
+                                      <a href="#" class="burger-menu__link"><img src="img/header/basket-icon.svg"></a>
+                                      <a href="#" class="burger-menu__link"><img src="img/header/acc-icon.svg"></a>
+                                  </nav>
+
+                                  <div class="burger-menu__overlay"></div>
+                              </div>
+                          </nav>
             </nav>
         </div>
     </header>
 
-    <section class="main-page">
+    <section class="main-section">
         <div class="container">
-            <div class="main-page__content">
-                <div class="main-page__info">
-                    <h1 class="main-page__title">Discover, collect, and sell <span>Timeless</span> NFTs</h1>
-                    <p class="main-page__text">The world’s first and largest digital marketplace for crypto collectibles
+            <div class="main-section__content">
+                <div class="main-section__info">
+                    <h1 class="main-section__title">Discover, collect, and sell <span>Timeless</span> NFTs</h1>
+                    <p class="main-section__text">The world’s first and largest digital marketplace for crypto collectibles
                         and non- fungible tokens (NFTs).</p>
-                    <div class="main-page__button">
-                        <div class="main-page__button1-border"><button class="main-page__button1">
+                    <div class="main-section__button">
+                        <div class="main-section__button1-border"><button class="main-section__button1">
                                 <p>Explore <img src="img/header/next.svg"></p>
                             </button></div>
-                        <button class="main-page__button2">Create NFT’s</button>
+                        <button class="main-section__button2">Create NFT’s</button>
                     </div>
-                    <div class="main-page__numbers">
-                        <div class="main-page__numbers-artwork">
+                    <div class="main-section__numbers">
+                        <div class="main-section__numbers-artwork">
                             <p class="number">35m+</p>
                             <p class="name-numbers">Artwork</p>
                         </div>
-                        <div class="main-page__numbers-auctions">
+                        <div class="main-section__numbers-auctions">
                             <p class="number">18m+</p>
                             <p class="name-numbers">Auctions</p>
                         </div>
-                        <div class="main-page__numbers-artists">
+                        <div class="main-section__numbers-artists">
                             <p class="number">500k+</p>
                             <p class="name-numbers">Artists</p>
                         </div>
                     </div>
                 </div>
-                <div class="main-page__partners">
-                    <img src="img/partners/Binance_logo.svg">
-                    <img src="img/partners/ethereum_logo.svg">
-                    <img src="img/partners/blockchainio_logo.svg">
-                    <img src="img/partners/bitmex.svg">
+                <div class="partners">
+                    <img src="img/partners/Binance_logo.svg" class="binance">
+                    <img src="img/partners/ethereum_logo.svg" class="ethereum">
+                    <img src="img/partners/blockchainio_logo.svg" class="blockchain">
+                    <img src="img/partners/bitmex.svg" class="bitmex">
                 </div>
-                <div class="main-page__card">
-                    <div class="main-page__nft"><img src="img/header/nft.jpg"></div>
-                    <div class="main-page__acc">
-                        <div class="main-page__section1">
-                            <h3>3D Abstract Hand</h3>
-                            <div class="main-page__account">
-                                <img src="img/top-nfts/acc1.svg" class="main-page__account-img">
-                                <p>@jhonartist</p>
-                                <img src="img/check-mark.svg" class="main-page__check-mark">
-                            </div>
-                            <p class="main-page__reserve-price">Reserve price</p>
-                            <div class="main-page__price-eth"><img src="img/top-nfts/top-nfts-logo.svg">
+                        <div class="main-section-card">
+                            <div class="card-nft"><img src="img/header/nft.jpg"></div>
+                            <div class="card-owner">
+                                <div class="owner__col1">
+                                    <h3>3D Abstract Hand</h3>
+                                    <div class="owner__account">
+                                        <img src="img/top-nfts/acc1.svg" class="owner__account-img">
+                                        <p>@jhonartist</p>
+                                        <img src="img/check-mark.svg" class="owner__check-mark">
+                                    </div>
+                                    <p class="owner__reserve-price">Reserve price</p>
+                                    <div class="owner__price-eth"><img src="img/top-nfts/top-nfts-logo.svg">
+                                        <p>ETH 9.31
+                                            <span>($29,8846)</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="owwner__col2">
+                                    <h3>Auction Ends in</h3>
+                                    <div class="owner__nuber">
+                                        <div class="owner__number">
+                                            <p class="owner__num">18</p>
+                                            <p class="owner__name">Hours</p>
+                                        </div>
+                                        <div class="owner__number">
+                                            <p class="owner__num">25</p>
+                                            <p class="owner__name">Mins</p>
+                                        </div>
+                                        <div class="owner__number">
+                                            <p class="owner__num">44</p>
+                                            <p class="owner__name">Secs</p>
+                                        </div>
+                                    </div>
+                                    <div class="owner__button-border"><button
+                                            class="owner__button">
+                                            <p>Place Bid <img src="img/top-nfts/next-bid.svg"></p>
+                                        </button></div>
+                                </div>
                             </div>
                         </div>
-                        <div class="main-page__section2">
-                            <h3>Auction Ends in</h3>
-                            <div class="main-page__nuber2">
-                                <div class="main-page__number">
-                                    <p class="main-page__num">18</p>
-                                    <p class="main-page__name">Hours</p>
-                                </div>
-                                <div class="main-page__number">
-                                    <p class="main-page__num">25</p>
-                                    <p class="main-page__name">Mins</p>
-                                </div>
-                                <div class="main-page__number">
-                                    <p class="main-page__num">44</p>
-                                    <p class="main-page__name">Secs</p>
-                                </div>
-                            </div>
-                            <div class="main-page__button3-border"><button class="main-page__button3">
-                                    <p>Place Bid <img src="img/top-nfts/next-bid.svg"></p>
-                                </button></div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
 
-    <section class="top-nfts-now">
+    <section class="top-nfts">
         <div class="container">
-            <div class="top-nfts-now__content">
-                <h1 class="top-nfts-now__title">Top NFT’s now</h1>
-                <button class="top-nfts-now__button">View all <img src="img/top-nfts/next.svg"></button>
+            <div class="top-nfts__content">
+                <h1 class="top-nfts__title">Top NFT’s now</h1>
+                <button class="top-nfts__button">View all <img src="img/top-nfts/next.svg"></button>
             </div>
-            <div class="top-nfts-now__swiper swiper swiper-container">
+            <div class="top-nfts-cards swiper swiper-container">
                 <div class="swiper-wrapper top-nfts__swiper-wrapper">
                     <div class="top-nfts__swiper-slide swiper-slide">
-                        <img src="img/top-nfts/slide1.jpg" class="top-nfts__swiper-img">
+                        <img src="img/top-nfts/nft1.jpg" class="top-nfts__swiper-img">
                         <div class="top-nfts__swiper-about">
                             <div class="section1">
                                 <h3>Apollo Eth #1289 NFT</h3>
@@ -123,6 +143,9 @@
                                 </div>
                                 <p class="reserve-price">Reserve price</p>
                                 <div class="price-eth"><img src="img/top-nfts/top-nfts-logo.svg">
+                                    <p>ETH 9.31
+                                        <span>($29,8846)</span>
+                                    </p>
                                 </div>
                             </div>
                             <div class="section2">
@@ -148,7 +171,7 @@
                         </div>
                     </div>
                     <div class="top-nfts__swiper-slide swiper-slide">
-                        <img src="img/top-nfts/slide2.jpg" class="top-nfts__swiper-img">
+                        <img src="img/top-nfts/nft2.jpg" class="top-nfts__swiper-img">
                         <div class="top-nfts__swiper-about">
                             <div class="section1">
                                 <h3>Sassy Bull #1169 Art</h3>
@@ -159,6 +182,9 @@
                                 </div>
                                 <p class="reserve-price">Reserve price</p>
                                 <div class="price-eth"><img src="img/top-nfts/top-nfts-logo.svg">
+                                    <p>ETH 9.31
+                                        <span>($29,8846)</span>
+                                    </p>
                                 </div>
                             </div>
                             <div class="section2">
@@ -184,7 +210,7 @@
                         </div>
                     </div>
                     <div class="top-nfts__swiper-slide swiper-slide">
-                        <img src="img/top-nfts/slide3.jpg" class="top-nfts__swiper-img">
+                        <img src="img/top-nfts/nft3.jpg" class="top-nfts__swiper-img">
                         <div class="top-nfts__swiper-about">
                             <div class="section1">
                                 <h3>Satisfying 3D Art</h3>
@@ -195,6 +221,9 @@
                                 </div>
                                 <p class="reserve-price">Reserve price</p>
                                 <div class="price-eth"><img src="img/top-nfts/top-nfts-logo.svg">
+                                    <p>ETH 9.31
+                                        <span>($29,8846)</span>
+                                    </p>
                                 </div>
                             </div>
                             <div class="section2">
@@ -220,7 +249,7 @@
                         </div>
                     </div>
                     <div class="top-nfts__swiper-slide swiper-slide">
-                        <img src="img/top-nfts/slide1.jpg" class="top-nfts__swiper-img">
+                        <img src="img/top-nfts/nft1.jpg" class="top-nfts__swiper-img">
                         <div class="top-nfts__swiper-about">
                             <div class="section1">
                                 <h3>Apollo Eth #1289 NFT</h3>
@@ -231,6 +260,9 @@
                                 </div>
                                 <p class="reserve-price">Reserve price</p>
                                 <div class="price-eth"><img src="img/top-nfts/top-nfts-logo.svg">
+                                    <p>ETH 9.31
+                                        <span>($29,8846)</span>
+                                    </p>
                                 </div>
                             </div>
                             <div class="section2">
@@ -256,7 +288,7 @@
                         </div>
                     </div>
                     <div class="top-nfts__swiper-slide swiper-slide">
-                        <img src="img/top-nfts/slide2.jpg" class="top-nfts__swiper-img">
+                        <img src="img/top-nfts/nft2.jpg" class="top-nfts__swiper-img">
                         <div class="top-nfts__swiper-about">
                             <div class="section1">
                                 <h3>Sassy Bull #1169 Art</h3>
@@ -267,6 +299,9 @@
                                 </div>
                                 <p class="reserve-price">Reserve price</p>
                                 <div class="price-eth"><img src="img/top-nfts/top-nfts-logo.svg">
+                                    <p>ETH 9.31
+                                        <span>($29,8846)</span>
+                                    </p>
                                 </div>
                             </div>
                             <div class="section2">
@@ -292,7 +327,7 @@
                         </div>
                     </div>
                     <div class="top-nfts__swiper-slide swiper-slide">
-                        <img src="img/top-nfts/slide3.jpg" class="top-nfts__swiper-img">
+                        <img src="img/top-nfts/nft3.jpg" class="top-nfts__swiper-img">
                         <div class="top-nfts__swiper-about">
                             <div class="section1">
                                 <h3>Satisfying 3D Art</h3>
@@ -303,6 +338,9 @@
                                 </div>
                                 <p class="reserve-price">Reserve price</p>
                                 <div class="price-eth"><img src="img/top-nfts/top-nfts-logo.svg">
+                                    <p>ETH 9.31
+                                        <span>($29,8846)</span>
+                                    </p>
                                 </div>
                             </div>
                             <div class="section2">
@@ -329,193 +367,199 @@
                     </div>
                 </div>
             </div>
+            <div class="top-nfts__btn-border"><button class="top-nfts__btn">
+                <p>Explore <img src="img/header/next.svg"></p>
+            </button></div>
         </div>
         </div>
     </section>
 
-    <section class="explore-collections">
-        <div class="container">
-            <div class="explore-collections__content">
-                <h1>Explore Collections</h1>
-                <div class="explore-collections__btns">
-                    <div class="btns__column">
-                        <button class="explore-collections__btn">Photography</button>
-                        <button class="explore-collections__btn">Brands</button>
-                        <button class="explore-collections__btn">Art</button>
-                        <button class="explore-collections__btn">Brands</button>
-                    </div>
-                    <div class="btns__column">
-                        <button class="explore-collections__btn">Sports</button>
-                        <button class="explore-collections__btn">Collectibles</button>
-                        <button class="explore-collections__btn">Utility</button>
-                        <button class="explore-collections__btn">Collectibles</button>
-                    </div>
-                </div>
-                <button class="button__view">View all <img src="img/collect/next.svg"></button>
-                <img class="girl-nft" src="img/collect/girl-nft.png">
-
-            </div>
-        </div>
-    </section>
-
-    <section class="explore-collections-acc">
-        <div class="container">
-            <div class="explore-collections-acc__content">
-                <div class="explore-collections-acc__title">
+       <section class="explore-collections">
+            <div class="container">
+                <div class="explore-collections__content">
                     <h1>Explore Collections</h1>
-                    <button class="button__view2">View all <img src="img/collect/next.svg"></button>
-                </div>
-                <div class="explore-collections-cards swiper swiper-container">
-                    <div class="swiper-wrapper explore-collections__swiper-wrapper">
-                        <div class="explore-collections__swiper-slide swiper-slide">
-                            <div class="explore-collections__user">
-                                <img src="img/collect/user1.png" class="user-img">
-                                <p class="username">Jhones Nickey</p>
-                                <p class="usernick">@jhonartist<img src="img/check-mark.svg"></p>
-                            </div>
-                            <div class="explore-collections__info">
-                                <div class="user-nums">
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">125</p>
-                                        <p class="user-num__name">Folowers</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">256</p>
-                                        <p class="user-num__name">Following</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">129</p>
-                                        <p class="user-num__name">Artworks</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="follow__btn">Follow</button>
+                    <div class="explore-collections__btns">
+                        <div class="btns__column">
+                            <button class="explore-collections__btn">Photography</button>
+                            <button class="explore-collections__btn">Brands</button>
+                            <button class="explore-collections__btn">Art</button>
+                            <button class="explore-collections__btn">Brands</button>
                         </div>
-                        <div class="explore-collections__swiper-slide swiper-slide">
-                            <div class="explore-collections__user">
-                                <img src="img/collect/user2.png" class="user-img">
-                                <p class="username">Cody Fisher</p>
-                                <p class="usernick">@codyfishe<img src="img/check-mark.svg"></p>
-                            </div>
-                            <div class="explore-collections__info">
-                                <div class="user-nums">
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">356</p>
-                                        <p class="user-num__name">Folowers</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">456</p>
-                                        <p class="user-num__name">Following</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">89</p>
-                                        <p class="user-num__name">Artworks</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="follow__btn">Follow</button>
-                        </div>
-                        <div class="explore-collections__swiper-slide swiper-slide">
-                            <div class="explore-collections__user">
-                                <img src="img/collect/user3.png" class="user-img">
-                                <p class="username">Jerome Bell</p>
-                                <p class="usernick">@jeromebt<img src="img/check-mark.svg"></p>
-                            </div>
-                            <div class="explore-collections__info">
-                                <div class="user-nums">
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">564</p>
-                                        <p class="user-num__name">Folowers</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">789</p>
-                                        <p class="user-num__name">Following</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">54</p>
-                                        <p class="user-num__name">Artworks</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="follow__btn">Follow</button>
-                        </div>
-                        <div class="explore-collections__swiper-slide swiper-slide">
-                            <div class="explore-collections__user">
-                                <img src="img/collect/user1.png" class="user-img">
-                                <p class="username">Jhones Nickey</p>
-                                <p class="usernick">@jhonartist<img src="img/check-mark.svg"></p>
-                            </div>
-                            <div class="explore-collections__info">
-                                <div class="user-nums">
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">125</p>
-                                        <p class="user-num__name">Folowers</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">256</p>
-                                        <p class="user-num__name">Following</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">129</p>
-                                        <p class="user-num__name">Artworks</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="follow__btn">Follow</button>
-                        </div>
-                        <div class="explore-collections__swiper-slide swiper-slide">
-                            <div class="explore-collections__user">
-                                <img src="img/collect/user2.png" class="user-img">
-                                <p class="username">Cody Fisher</p>
-                                <p class="usernick">@codyfishe<img src="img/check-mark.svg"></p>
-                            </div>
-                            <div class="explore-collections__info">
-                                <div class="user-nums">
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">356</p>
-                                        <p class="user-num__name">Folowers</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">456</p>
-                                        <p class="user-num__name">Following</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">89</p>
-                                        <p class="user-num__name">Artworks</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="follow__btn">Follow</button>
-                        </div>
-                        <div class="explore-collections__swiper-slide swiper-slide">
-                            <div class="explore-collections__user">
-                                <img src="img/collect/user3.png" class="user-img">
-                                <p class="username">Jerome Bell</p>
-                                <p class="usernick">@jeromebt<img src="img/check-mark.svg"></p>
-                            </div>
-                            <div class="explore-collections__info">
-                                <div class="user-nums">
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">564</p>
-                                        <p class="user-num__name">Folowers</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">789</p>
-                                        <p class="user-num__name">Following</p>
-                                    </div>
-                                    <div class="user-num">
-                                        <p class="user-num__numbers">54</p>
-                                        <p class="user-num__name">Artworks</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="follow__btn">Follow</button>
+                        <div class="btns__column">
+                            <button class="explore-collections__btn">Sports</button>
+                            <button class="explore-collections__btn">Collectibles</button>
+                            <button class="explore-collections__btn">Utility</button>
+                            <button class="explore-collections__btn">Collectibles</button>
                         </div>
                     </div>
+                    <button class="button__view">View all <img src="img/collect/next.svg"></button>
+                    <img class="girl-nft" src="img/girl-nft.png">
+
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section class="explore-collections-acc">
+            <div class="container">
+                <div class="explore-collections-acc__content">
+                    <div class="explore-collections-acc__title">
+                        <h1>Explore Collections</h1>
+                        <button class="button__view2">View all <img src="img/collect/right.svg"></button>
+                    </div>
+                    <div class="explore-collections-cards swiper swiper-container">
+                        <div class="swiper-wrapper explore-collections__swiper-wrapper">
+                            <div class="explore-collections__swiper-slide swiper-slide">
+                                <div class="explore-collections__user">
+                                    <img src="img/collect/user1.png" class="user-img">
+                                    <p class="username">Jhones Nickey</p>
+                                    <p class="usernick">@jhonartist<img src="img/check-mark.svg"></p>
+                                </div>
+                                <div class="explore-collections__info">
+                                    <div class="user-nums">
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">125</p>
+                                            <p class="user-num__name">Folowers</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">256</p>
+                                            <p class="user-num__name">Following</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">129</p>
+                                            <p class="user-num__name">Artworks</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="follow__btn">Follow</button>
+                            </div>
+                            <div class="explore-collections__swiper-slide swiper-slide">
+                                <div class="explore-collections__user">
+                                    <img src="img/collect/user2.png" class="user-img">
+                                    <p class="username">Cody Fisher</p>
+                                    <p class="usernick">@codyfishe<img src="img/check-mark.svg"></p>
+                                </div>
+                                <div class="explore-collections__info">
+                                    <div class="user-nums">
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">356</p>
+                                            <p class="user-num__name">Folowers</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">456</p>
+                                            <p class="user-num__name">Following</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">89</p>
+                                            <p class="user-num__name">Artworks</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="follow__btn">Follow</button>
+                            </div>
+                            <div class="explore-collections__swiper-slide swiper-slide">
+                                <div class="explore-collections__user">
+                                    <img src="img/collect/user3.png" class="user-img">
+                                    <p class="username">Jerome Bell</p>
+                                    <p class="usernick">@jeromebt<img src="img/check-mark.svg"></p>
+                                </div>
+                                <div class="explore-collections__info">
+                                    <div class="user-nums">
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">546</p>
+                                            <p class="user-num__name">Folowers</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">789</p>
+                                            <p class="user-num__name">Following</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">54</p>
+                                            <p class="user-num__name">Artworks</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="follow__btn">Follow</button>
+                            </div>
+                            <div class="explore-collections__swiper-slide swiper-slide">
+                                <div class="explore-collections__user">
+                                    <img src="img/collect/user1.png" class="user-img">
+                                    <p class="username">Jhones Nickey</p>
+                                    <p class="usernick">@jhonartist<img src="img/check-mark.svg"></p>
+                                </div>
+                                <div class="explore-collections__info">
+                                    <div class="user-nums">
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">125</p>
+                                            <p class="user-num__name">Folowers</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">256</p>
+                                            <p class="user-num__name">Following</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">129</p>
+                                            <p class="user-num__name">Artworks</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="follow__btn">Follow</button>
+                            </div>
+                            <div class="explore-collections__swiper-slide swiper-slide">
+                                <div class="explore-collections__user">
+                                    <img src="img/collect/user2.png" class="user-img">
+                                    <p class="username">Cody Fisher</p>
+                                    <p class="usernick">@codyfishe<img src="img/check-mark.svg"></p>
+                                </div>
+                                <div class="explore-collections__info">
+                                    <div class="user-nums">
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">356</p>
+                                            <p class="user-num__name">Folowers</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">456</p>
+                                            <p class="user-num__name">Following</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">89</p>
+                                            <p class="user-num__name">Artworks</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="follow__btn">Follow</button>
+                            </div>
+                            <div class="explore-collections__swiper-slide swiper-slide">
+                                <div class="explore-collections__user">
+                                    <img src="img/collect/user3.png" class="user-img">
+                                    <p class="username">Jerome Bell</p>
+                                    <p class="usernick">@jeromebt<img src="img/check-mark.svg"></p>
+                                </div>
+                                <div class="explore-collections__info">
+                                    <div class="user-nums">
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">564</p>
+                                            <p class="user-num__name">Folowers</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">789</p>
+                                            <p class="user-num__name">Following</p>
+                                        </div>
+                                        <div class="user-num">
+                                            <p class="user-num__numbers">54</p>
+                                            <p class="user-num__name">Artworks</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="follow__btn">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore-collections-acc__btn-border"><button class="explore-collections-acc__btn">
+                        <p>Explore <img src="img/header/next.svg"></p>
+                    </button></div>
+                </div>
+            </div>
+        </section>
 
     <section class="top-sellers">
         <div class="container">
@@ -544,94 +588,97 @@
                         <li class="user__2">
                             <img src="img/top-sellers/user2.png" class="top-sellers__user-img">
                             <div class="user-info">
-                                <p class="user-name">Eleanor Pena</p>
-                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 74875</p>
+                                <p class="user-name">Savannah Nguyen</p>
+                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 18599</p>
                             </div>
                             <p class="user__attachments_r">+468.48%</p>
                         </li>
                         <li class="user__3">
                             <img src="img/top-sellers/user3.png" class="top-sellers__user-img">
                             <div class="user-info">
-                                <p class="user-name">Eleanor Pena</p>
-                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 74875</p>
+                                <p class="user-name">Arlene McCoy</p>
+                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 45904</p>
                             </div>
                             <p class="user__attachments">+468.48%</p>
                         </li>
                         <li class="user__4">
                             <img src="img/top-sellers/user4.png" class="top-sellers__user-img">
                             <div class="user-info">
-                                <p class="user-name">Eleanor Pena</p>
-                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 74875</p>
+                                <p class="user-name">Esther Howard</p>
+                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 16627</p>
                             </div>
                             <p class="user__attachments_r">+468.48%</p>
                         </li>
                         <li class="user__5">
                             <img src="img/top-sellers/user5.png" class="top-sellers__user-img">
                             <div class="user-info">
-                                <p class="user-name">Eleanor Pena</p>
-                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 74875</p>
+                                <p class="user-name">Robert Fox</p>
+                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 9631</p>
                             </div>
                             <p class="user__attachments">+468.48%</p>
                         </li>
                         <li class="user__6">
                             <img src="img/top-sellers/user6.png" class="top-sellers__user-img">
                             <div class="user-info">
-                                <p class="user-name">Eleanor Pena</p>
-                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 74875</p>
+                                <p class="user-name">Darlene Robertson</p>
+                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 70443</p>
                             </div>
                             <p class="user__attachments">+468.48%</p>
                         </li>
                         <li class="user__7">
                             <img src="img/top-sellers/user7.png" class="top-sellers__user-img">
                             <div class="user-info">
-                                <p class="user-name">Eleanor Pena</p>
-                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 74875</p>
+                                <p class="user-name">Jacob Jones</p>
+                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 13671</p>
                             </div>
                             <p class="user__attachments">+468.48%</p>
                         </li>
                         <li class="user__8">
                             <img src="img/top-sellers/user8.png" class="top-sellers__user-img">
                             <div class="user-info">
-                                <p class="user-name">Eleanor Pena</p>
-                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 74875</p>
+                                <p class="user-name">Jerome Bell</p>
+                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 39235</p>
                             </div>
                             <p class="user__attachments_r">+468.48%</p>
                         </li>
                         <li class="user__9">
                             <img src="img/top-sellers/user9.png" class="top-sellers__user-img">
                             <div class="user-info">
-                                <p class="user-name">Eleanor Pena</p>
-                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 74875</p>
+                                <p class="user-name">Wade Warren</p>
+                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 43359</p>
                             </div>
                             <p class="user__attachments_r">+468.48%</p>
                         </li>
                         <li class="user__10">
                             <img src="img/top-sellers/user10.png" class="top-sellers__user-img">
                             <div class="user-info">
-                                <p class="user-name">Eleanor Pena</p>
-                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 74875</p>
+                                <p class="user-name">Jane Cooper</p>
+                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 95554</p>
                             </div>
                             <p class="user__attachments_r">+468.48%</p>
                         </li>
                         <li class="user__11">
                             <img src="img/top-sellers/user11.png" class="top-sellers__user-img">
                             <div class="user-info">
-                                <p class="user-name">Eleanor Pena</p>
-                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 74875</p>
+                                <p class="user-name">Kristin Watson</p>
+                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 20796</p>
                             </div>
                             <p class="user__attachments">+468.48%</p>
                         </li>
                         <li class="user__12">
                             <img src="img/top-sellers/user12.png" class="top-sellers__user-img">
                             <div class="user-info">
-                                <p class="user-name">Eleanor Pena</p>
-                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 74875</p>
+                                <p class="user-name">Kathryn Murphy</p>
+                                <p class="user-stat"><img src="img/top-sellers/imag.svg"> 4339</p>
                             </div>
                             <p class="user__attachments_r">+468.48%</p>
                         </li>
                     </ol>
                 </div>
                 <button class="top-sellers__btn">Explore all</button>
+                <div class="top-sellers__btn-border"><button class="top-sellers__btn2">
+                    <p>Explore <img src="img/header/next.svg"></p>
+                </button></div>
             </div>
         </div>
     </section>
@@ -645,104 +692,121 @@
                     amet odio quis sed adipiscing adipiscing magna non. Nullam turpis faucibus ridiculus suscipit. Et
                     blandit suspendisse curabitur eu congue dui ut.
                 </p>
-                <button class="learn-more">Learn more</button>
-                <button class="video"><img src="img/what-are-nfts/video.svg">Watch video</button>
+                <button class="learn-more__btn">Learn more</button>
+                <button class="video__btn"><img src="img/what-are-nfts/video.svg">Watch video</button>
             </div>
         </div>
     </section>
 
-    <section class="subscribe">
-        <div class="container">
-            <div class="subscribe__content">
-                <img src="img/subscribe/imag.jpg">
-                <div class="subscribe__info">
-                    <h1>Subscribe to us</h1>
-                    <p>Specially developed to help restore a more youthful
-                        appearance with improved radiance and bounce.</p>
-                    <input type="email" placeholder="Your work email address">
-                    <button>Subscribe</button>
+        <section class="subscribe-form">
+            <div class="container">
+                <div class="subscribe-form__content">
+                    <img src="img/subscribe/imag.jpg" class="subscribe-form__img">
+                    <div class="subscribe-form__form-to-join">
+                        <h1>Subscribe to us</h1>
+                        <p>Specially developed to help restore a more youthful
+                            appearance with improved radiance and bounce.</p>
+                        <input type="email" placeholder="Your work email address">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+                <img src="img/subscribe/imag-adapt.jpg" class="img-adapt">
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer-info">
+                        <img src="img/header/header-logo.svg" class="footer-info__logo">
+                        <p>Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis
+                            volutpat. Cursus sed massa non nisi, placerat.</p>
+                        <div class="footer-social">
+                            <a href="#"><img src="img/footer/inst.svg"></a>
+                            <a href="#"><img src="img/footer/drib.svg"></a>
+                            <a href="#"><img src="img/footer/twit.svg"></a>
+                            <a href="#"><img src="img/footer/yt.svg"></a>
+                        </div>
+                    </div>
+                    <div class="footer-categoryes">
+                        <div class="footer-categoryes__item">
+                            <input class="accordion-item__input" type="checkbox" id="accordion1">
+                            <label class="accordion-item__trigger" for="accordion1">Market place <img src="img/footer/chekbox.svg"></label>
+                            <div class="accordion-item__content">
+                                <a>Overview</a>
+                                <a>Features <img src="img/footer/new.svg"></a>
+                                <a>Tutorials</a>
+                                <a>Pricing</a>
+                                <a>Releases</a>
+                            </div>
+                        </div>
+                        <div class="footer-categoryes__item">
+                            <input class="accordion-item__input" type="checkbox" id="accordion2">
+                            <label class="accordion-item__trigger" for="accordion2">Collectibles <img src="img/footer/chekbox.svg"></label>
+                            <div class="accordion-item__content">
+                                <a>About</a>
+                                <a>Press</a>
+                                <a>Careers</a>
+                                <a>Contact</a>
+                                <a>Partners</a>
+                            </div>
+                        </div>
+                        <div class="footer-categoryes__item">
+                            <input class="accordion-item__input" type="checkbox" id="accordion3">
+                            <label class="accordion-item__trigger" for="accordion3">Support <img src="img/footer/chekbox.svg"></label>
+                            <div class="accordion-item__content">
+                                <a>Help Center</a>
+                                <a>Safety Center</a>
+                                <a>Legal</a>
+                                <a>Privacy policy</a>
+                                <a>Status</a>
+                            </div>
+                        </div>
+                        <div class="footer-categoryes__item">
+                            <input class="accordion-item__input" type="checkbox" id="accordion4">
+                            <label class="accordion-item__trigger" for="accordion4">Legal <img src="img/footer/chekbox.svg"></label>
+                            <div class="accordion-item__content">
+                                <a>Cookies Policy</a>
+                                <a>Privacy Policy</a>
+                                <a>Terms of Service</a>
+                                <a>Law Enforcement</a>
+                                <a>Status</a>
+                            </div>
+                        </div>
+                        <div class="footer-categoryes__item">
+                            <input class="accordion-item__input" type="checkbox" id="accordion5">
+                            <label class="accordion-item__trigger-last" for="accordion5">Follow us <img src="img/footer/chekbox.svg"></label>
+                            <div class="accordion-item__content">
+                                <a>Facebook</a>
+                                <a>Twitter</a>
+                                <a>Dribbble</a>
+                                <a>Instagram</a>
+                                <a>LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </footer>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__info">
-                    <img src="img/header/header-logo.svg" class="footer__logo">
-                    <p>Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis
-                        volutpat. Cursus sed massa non nisi, placerat.</p>
-                    <div class="social">
-                        <a href="#"><img src="img/footer/inst.svg"></a>
-                        <a href="#"><img src="img/footer/drib.svg"></a>
-                        <a href="#"><img src="img/footer/twit.svg"></a>
-                        <a href="#"><img src="img/footer/yt.svg"></a>
-                    </div>
-                </div>
-                <div class="footer__category">
-                    <div class="category">
-                        <h1>Market place</h1>
-                        <p>Overview</p>
-                        <p>Features <img src="img/footer/new.svg"></p>
-                        <p>Tutorials</p>
-                        <p>Pricing</p>
-                        <p>Releases</p>
-                    </div>
-                    <div class="category">
-                        <h1>Collectibles</h1>
-                        <p>About</p>
-                        <p>Press</p>
-                        <p>Careers</p>
-                        <p>Contact</p>
-                        <p>Partners</p>
-                    </div>
-                    <div class="category">
-                        <h1>Support</h1>
-                        <p>Help Center</p>
-                        <p>Safety Center</p>
-                        <p>Legal</p>
-                        <p>Privacy policy</p>
-                        <p>Status</p>
-                    </div>
-                    <div class="category">
-                        <h1>Legal</h1>
-                        <p>Cookies Policy</p>
-                        <p>Privacy Policy</p>
-                        <p>Terms of Service</p>
-                        <p>Law Enforcement</p>
-                        <p>Status</p>
-                    </div>
-                    <div class="category">
-                        <h1>Follow us</h1>
-                        <p>Facebook</p>
-                        <p>Twitter</p>
-                        <p>Dribbble</p>
-                        <p>Instagram</p>
-                        <p>LinkedIn</p>
+        <section class="last-line">
+            <div class="container">
+                <div class="last-line__content">
+                    <p>© 2020 Landify UI Kit. All rights reserved</p>
+                    <div class="last-line__last">
+                        <a class="last-line__last-item">Terms & Conditions</a>
+                        <a class="last-line__last-item">Privacy Policy</a>
+                        <a class="last-line__list-item-last">Sitemap</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </section>
 
-    <section class="last-info">
-        <div class="container">
-            <div class="last-info__content">
-                <p>© 2020 Landify UI Kit. All rights reserved</p>
-                <div class="last-info__last">
-                    <a class="last-info__last-item">Terms & Conditions</a>
-                    <a class="last-info__last-item">Privacy Policy</a>
-                    <a>Sitemap</a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="swiper-top.js"></script>
-    <script src="swiper-explore.js"></script>
+    <script src="burger-menu.js"></script>
+    <script src="swiper-top-nfts.js"></script>
+    <script src="swiper-users.js"></script>
 </body>
 
 </html>
